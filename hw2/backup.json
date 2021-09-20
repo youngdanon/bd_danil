@@ -1,0 +1,72 @@
+{
+    "db": {
+        "artists": {
+            "0": {
+                "name": "Николай Басков",
+                "desc": "*description*"
+            },
+            "1": {
+                "name": "Morgenstern",
+                "desc": "desc"
+            }
+        },
+        "albums": {
+            "0": {
+                "name": "Чаша золотая",
+                "artist_id": 0,
+                "music_ids": 0,
+                "release_date": "2010-01-10",
+                "listening_counter": 0
+            },
+            "1": {
+                "name": "Легендарная пыль",
+                "artist_id": 1,
+                "music_ids": 1,
+                "release_date": "2020-01-10",
+                "listening_counter": 0
+            }
+        },
+        "musics": {
+            "0": {
+                "name": "Чаша золотая",
+                "artist_id": 0,
+                "length": 4.52,
+                "release_date": "2010-01-10",
+                "listening_counter": 0
+            },
+            "1": {
+                "name": "Я съел деда",
+                "artist_id": 1,
+                "length": 3.28,
+                "release_date": "2020-01-10",
+                "listening_counter": 0
+            }
+        },
+        "users": {
+            "0": {
+                "nickname": "Danil",
+                "login": "youngdanon",
+                "password": "qwertyuiop",
+                "favorite_artists": [
+                    0,
+                    1
+                ],
+                "playlists_ids": [
+                    0
+                ]
+            }
+        },
+        "playlists": {
+            "0": {
+                "name": "Liked music",
+                "desc": "i love this shit",
+                "music_ids": [
+                    0,
+                    1
+                ],
+                "length": 7.799999999999999,
+                "user_id": 0
+            }
+        }
+    }
+}
